@@ -3,7 +3,12 @@ import { useState } from 'react'
 import { rawProducts, rawUsers } from '../data/data'
 
 const AppWrapper = ({ Component }) => {
-    const [showSidebar, setShowSidebar] = useState(false)
+    const [showSidebar, setShowSidebar] = useState(true)
+
+    useEffect(() => {
+        if (window.innerWidth < 767) setShowSidebar(false)
+    }, [])
+
 
     const [products, setProducts] = useState(rawProducts)
     const [users, setUsers] = useState(rawUsers)

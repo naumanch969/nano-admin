@@ -1,3 +1,4 @@
+lear
 import { Routes, Route, Navigate, Link } from 'react-router-dom'
 import { Home, Users, User, NewUser, Products, Product, NewProduct, Login, Register, ToBeCreated } from './pages'
 import { AppWrapper } from './wrapper'
