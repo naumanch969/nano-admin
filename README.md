@@ -1,4 +1,3 @@
-```markdown
 # Nano Dashboard - Order and Customer Tracking
 
 Nano Dashboard is a comprehensive dashboard application designed to efficiently keep track of user orders, customer information, and more. With a clean and intuitive interface, Nano Dashboard provides valuable insights into business operations, allowing for streamlined management and analysis.
